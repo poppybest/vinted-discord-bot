@@ -1,27 +1,10 @@
-# Vinted Monitor - No Delay (fyndit Public Bot)
+# Vinted Monitor - No Delay (Fyndit Old Public Bot)
 
 Vinted Monitor is a bot that monitors the Vinted items route for new items and notifies users in real-time. It is designed to work with minimal delay, ensuring that users are always up-to-date with the latest items.
-
-This bot is actively developed and used on a public server.
 
 <p align="center">
   <img src="./doc/bot.gif" alt="Example" style="max-height: 400px; width: auto;">
 </p>
-
-
-> [!TIP]
-> [Discord Invite](https://discord.gg/BGbDvpQzKK) - Join if you want: simply to use the bot freely (with autobuy, fast-buy and more features), to get help, to contribute to the development or to get a private version of the bot running on your own server.
-
-## Community Use
-
-Do you manage a community and want a powerful, automated bot to elevate the experience? Our advanced bot, complete with auto-buy capabilities, is designed to make community engagement seamless and efficient. Don’t miss out—[click here](https://www.fyndit.app) to discover how we can transform your community!
-
-<p align="center">
-<a href="https://www.fyndit.app">
-  <img src="./doc/fyndit.png" alt="Example" style="max-height: 800px; width: auto;">
-  </a>
-</p>
-
 
 ## Table of Contents
 1. [Features](#features)
@@ -30,13 +13,39 @@ Do you manage a community and want a powerful, automated bot to elevate the expe
 4. [Commands](#commands)
 5. [Showcase](#showcase)
 
-## Use the bot for free 
 
-The bot is running for free on a public discord server that you can access if you don't want to painfully try to install the bot that can be found by [clicking here](https://discord.gg/BGbDvpQzKK)
-- You can also help this bot running longer and contribute to the development somehow by [clicking here](https://buymeacoffee.com/teddyvltn)
-- You can also buy a membership to have a private version of this bot running on your own server that I will personnaly host by [clicking here](https://buymeacoffee.com/teddyvltn/membership)
+> [!WARNING]
+> This bot no longer performs well with Vinted's new security measures. Running this codebase effectively would require an absurd amount of money to achieve close to 100% item detection rates. Consider using the hosted service mentioned below for a more cost-effective solution which is a free service, to not ruin yourself if you just want to use a Vinted bot for yourself and snipe deals easily.
 
-## Features
+## No cost Hosted Service
+
+I offer a hosted version of this bot that you can use without the hassle of setup and maintenance and potential cost rabbit hole as mentionned above. Join our [Discord](https://discord.gg/ay8gX6jvm9) to get started!
+
+**Note: The hosted service is a complete private rework of this bot that's even better, with improved performance and reliability.**
+
+### Free Tier
+Use the basic bot features for monitoring Vinted items.
+
+<p align="center">
+  <img src="./doc/premium.png" alt="Example" style="max-height: 400px; width: auto;">
+</p>
+
+### Gold Tier Premium Features (14.90$/month)
+You can later upgrade to Gold tier to enjoy insane features such as:
+- **Autobuy/Autocop**: Automatically purchase items that match your criteria
+- **FastBuy**: Quick checkout process for securing items before others
+- **Smart Offer**: Intelligent offering system based on item data
+- **Price Trends**: Track price changes over time for items
+- **Item Sold History**: View sold items history similar to eBay
+- **Sales Profits Stats**: Track your profits from sales
+- **Schedule Retry**: Automatically retry on items with active transactions
+- **+50 Links Monitoring**: Monitor more search URLs
+
+--------
+
+## Only continue futher if you know what you are doing and understand that the bot might not work.
+
+### Features
 
 - **Real-time Monitoring**: Vinted Monitor fetches the latest items from the Vinted items route in real-time. 
 - **Monitoring all countries at once**: Lets you see all items from all country.
@@ -45,7 +54,7 @@ The bot is running for free on a public discord server that you can access if yo
 - **Database Channel/User Management**: The bot can manage channels and users in a database, allowing for easy management of notifications.
 - **Language Support**: The bot will communicate with users in their set Discord language. (If available, you can add your own translations in the `locales` folder.)
 
-## Requirements
+### Requirements
 
 - VPS running on a Linux kernel or you own computer (avoid Windows if possible)
 - Rotating proxy
@@ -55,7 +64,7 @@ The bot is running for free on a public discord server that you can access if yo
 - Some knowledge with Docker, JS and MongoDB
 - Git installed (optional)
 
-## Setup
+### Setup
 
 1. Clone the repository from terminal or download through Github.
 
@@ -107,7 +116,7 @@ chmod +x stop.sh
 > [!IMPORTANT]
 > If along the way you happen to modify the `.env` file or files in the other folders, you will need to rebuild the docker image by stopping the containers and to start them again.
 
-## Commands
+### Commands
 
 The bot supports a variety of commands that allow users to interact with the bot. Here are some of the available commands:
 - `/link_public_channel`: Creates a public channel for the bot to send notifications.
@@ -120,9 +129,9 @@ The bot supports a variety of commands that allow users to interact with the bot
 - `/info`: Displays information about Channel/User.
 - `/set_max_channels`: Sets the maximum number of private channels a user can create.
 
-## Showcase 
+### Showcase 
 
-### How to create a private channel and manage it
+#### How to create a private channel and manage it
 Click on the image below to look at the tutorial
 
 <div align="center">
