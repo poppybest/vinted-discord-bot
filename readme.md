@@ -10,17 +10,6 @@ Vinted Monitor is a bot that monitors the Vinted items route for new items and n
 > [!TIP]
 > [Discord Invite](https://discord.gg/fyndit) - Join if you want: simply to use the bot freely (with autobuy, fast-buy and more features).
 
-## Community Use
-
-Do you manage a community and want a powerful, automated bot to elevate the experience? Our advanced bot, complete with auto-buy capabilities, is designed to make community engagement seamless and efficient. Don’t miss out—[click here](https://www.fyndit.app) to discover how we can transform your community!
-
-<p align="center">
-<a href="https://www.fyndit.app">
-  <img src="./doc/fyndit.png" alt="Example" style="max-height: 800px; width: auto;">
-  </a>
-</p>
-
-
 ## Table of Contents
 1. [Features](#features)
 2. [Requirements](#requirements)
